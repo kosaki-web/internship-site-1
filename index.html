@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企業実習中に作成したトップページ　モダンバージョン</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Sans+JP:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <h1 class="logo">
+                <a href="#top">
+                    <img src="img/header/headerlogo.png" alt="F.K. CODING & DESIGNのロゴ" width="350" height="70"></a>
+            </h1>
+
+            <nav class="pc-nav">
+                <ul>
+                    <li><a href="#top">TOP</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#access">ACCESS</a></li>
+                    <li><a href="#">ONLINE SHOP</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <button class="menu-trigger" id="js-menu-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <nav class="mobile-nav" id="js-mobile-nav">
+            <ul>
+                <li><a href="#top">TOP</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#access">ACCESS</a></li>
+                <li><a href="#">ONLINE SHOP</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="top" class="hero">
+            <div class="hero-img-dummy">
+                <picture>
+                    <source srcset="img/hero/top_image1.webp" type="image/webp">
+                    <img src="img/hero/top_image1.jpg" alt="大仏と擬人化した鹿のイラスト">
+                </picture>
+            </div>
+            <div class="hero-content">
+                <h2 class="hero-copy">奈良の伝統を、<br>今の暮らしに。</h2>
+                <p class="hero-subline">1300年の歴史が息づく、美しき日用品</p>
+            </div>
+        </section>
+
+        <section class="concept">
+            <div class="container">
+                <div class="section-title">
+                    <p class="en" style="color: var(--nara-terracotta);">CONCEPT</p>
+                    <h2>新しい「奈良」を<br class="concept-br">持ち帰る。</h2>
+                </div>
+
+                <div class="concept-text">
+                    <p>奈良の地で、何世代にもわたって受け継がれてきた伝統工芸。<br>
+                        それは単なる「古いもの」ではなく、現代の暮らしを豊かに彩る、知恵と美学の結晶です。</p>
+                    <p>「F.K. CODING & DESIGN SHOP」は、今のライフスタイルに馴染む逸品を厳選し、作り手の想いと共に、あなたのもとへお届けします。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="container">
+                <div class="section-title">
+                    <p class="en">PRODUCTS</p>
+                    <h2>暮らしを彩る品々</h2>
+                </div>
+                <div class="product-grid">
+                    <a href="#" class="product-card">
+                        <div class="img-placeholder">
+                            <picture>
+                                <source srcset="img/img_items/akahadayaki1.webp" type="image/webp">
+                                <img src="img/img_items/akahadayaki1.jpg" alt="AIを用いた赤膚焼の画像" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="card-body">
+                            <h3>赤膚焼</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="product-card">
+                        <div class="img-placeholder">
+                            <picture>
+                                <source srcset="img/img_items/narasikki1.webp" type="image/webp">
+                                <img src="img/img_items/narasikki1.jpg" alt="AIを用いた奈良漆器の画像" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="card-body">
+                            <h3>奈良漆器</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="product-card">
+                        <div class="img-placeholder">
+                            <picture>
+                                <source srcset="img/img_items/ittoubori1.webp" type="image/webp">
+                                <img src="img/img_items/ittoubori1.jpg" alt="AIを用いた一刀彫の画像" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="card-body">
+                            <h3>一刀彫</h3>
+                            <p></p>
+                        </div>
+                    </a>
+                    <a href="#" class="product-card">
+                        <div class="img-placeholder">
+                            <picture>
+                                <source srcset="img/img_items/butuzou1.webp" type="image/webp">
+                                <img src="img/img_items/butuzou1.jpg" alt="AIを用いた仏像の画像" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="card-body">
+                            <h3>仏像</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="product-card">
+                        <div class="img-placeholder">
+                            <picture>
+                                <source srcset="img/img_items/naragluss1.webp" type="image/webp">
+                                <img src="img/img_items/naragluss1.jpg" alt="AIを用いた奈良硝子の画像" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="card-body">
+                            <h3>奈良硝子</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="product-card">
+                        <div class="img-placeholder">
+                            <picture>
+                                <source srcset="img/img_items/omiyage1.webp" type="image/webp">
+                                <img src="img/img_items/omiyage1.jpg" alt="AIを用いたおみやげの画像" loading="lazy">
+                            </picture>
+                        </div>
+                        <div class="card-body">
+                            <h3>おみやげ</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="news">
+            <div class="container">
+                <div class="section-title">
+                    <p class="en">NEWS</p>
+                    <h2>お知らせ</h2>
+                </div>
+                <ul class="news-list">
+                    <li>
+                        <a href="#">
+                            <span class="date">2026.02.25</span>
+                            <span class="label">EVENT</span>
+                            <span class="title">春の新作工芸品展を開催いたします。</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="date">2026.02.10</span>
+                            <span class="label">INFO</span>
+                            <span class="title">オンラインショップの送料改定について</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="access">
+            <div class="container">
+                <div class="section-title">
+                    <p class="en">SHOP INFO</p>
+                    <h2>アクセス</h2>
+                </div>
+                <div class="map-container">
+                    <div class="map-dummy">
+                        <p>MAP AREA</p>
+                    </div>
+                    <div class="access-info">
+                        <h3>F.K. CODING & DESIGN</h3>
+                        <p class="address">〒XXX-XXXX<br>XXXXXXXXXXX-XX</p>
+                        <p id="contact">電話：XXXX-XX-XXXX</p>
+                        <p>営業時間：10:00 〜 18:00<br>定休日：月曜日（祝日の場合は翌日）</p>
+                        <p class="transport">XXXXXXより徒歩約5分 / XXXXXXXより徒歩約10分</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 F.K. CODING & DESIGN</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="js-pagetop" class="pagetop">
+        <svg viewBox="0 0 24 24">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
