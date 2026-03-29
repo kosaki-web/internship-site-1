@@ -98,6 +98,22 @@ header {
     margin-top: 10px;
 }
 
+.logo img {
+    width: 50%;
+}
+
+@media (max-width:1200px) {
+    .pc-nav ul {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pc-nav a span {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 
 
 
