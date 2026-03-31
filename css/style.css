@@ -79,6 +79,18 @@ header {
     /* ヘッダーの高さを指定 */
 }
 
+.logo {
+    margin-top: 10px;
+}
+
+.logo a {
+    width: fit-content;
+}
+
+.logo img {
+    width: 50%;
+}
+
 .pc-nav ul {
     display: flex;
     gap: 20px;
@@ -92,14 +104,6 @@ header {
 
 .pc-nav a:hover {
     background-color: #a3b9c9;
-}
-
-.logo {
-    margin-top: 10px;
-}
-
-.logo img {
-    width: 50%;
 }
 
 /* --- レスポンシブ設定 --- */
@@ -126,6 +130,8 @@ header {
         /* スマホではロゴを少し小さくしてバランス調整 */
     }
 }
+
+
 
 
 
@@ -211,8 +217,12 @@ header {
         display: block;
         /* スマホで三本線を表示 */
         padding-right: 20px;
-        margin-top: 5px;
     }
+}
+
+
+/* レスポンシブ */
+@media (max-width: 768px) {
 
     /* ハンバーガー開閉用 */
     body.menu-open {
@@ -224,7 +234,7 @@ header {
     }
 
     body.menu-open .menu-trigger span:nth-child(1) {
-        transform: translateY(15px) rotate(45deg);
+        transform: translateY(14px) rotate(45deg);
     }
 
     body.menu-open .menu-trigger span:nth-child(2) {
@@ -310,6 +320,13 @@ header {
 @media (max-width: 768px) {
     .hero {
         height: 60vh;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero {
+        max-width: 320px;
+        width: 100%;
     }
 }
 
