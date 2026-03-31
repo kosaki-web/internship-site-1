@@ -73,22 +73,25 @@ header {
     /* ロゴは左、ボタンは右 */
     align-items: center;
     /* これで垂直方向の高さが揃います */
-    padding: 10px 5% 10px 2%;
+    padding: 0 5% 0 2%;
     /* 上下の余白 */
-    height: 70px;
+    min-height: 70px;
     /* ヘッダーの高さを指定 */
+    width: auto;
 }
 
 .logo {
-    margin-top: 10px;
+    margin: 0;
 }
 
 .logo a {
-    width: fit-content;
+    display: block;
 }
 
 .logo img {
-    width: 50%;
+    height: 50px;
+    width: auto;
+    display: block;
 }
 
 .pc-nav ul {
@@ -148,7 +151,7 @@ header {
     background: none;
     border: none;
     width: 30px;
-    height: 24px;
+    height: 30px;
     position: relative;
     cursor: pointer;
     z-index: 1000;
@@ -172,21 +175,20 @@ header {
 }
 
 /* 三本線の配置（高さが綺麗に揃うよう調整） */
-.menu-trigger span:nth-child(1) {
-    top: -5px;
-}
-
 /* 一番上 */
-.menu-trigger span:nth-child(2) {
-    top: 8px;
+.menu-trigger span:nth-child(1) {
+    top: 0;
 }
 
 /* 真ん中 */
-.menu-trigger span:nth-child(3) {
-    bottom: 0;
+.menu-trigger span:nth-child(2) {
+    top: 45%;
 }
 
 /* 一番下 */
+.menu-trigger span:nth-child(3) {
+    bottom: 0;
+}
 
 /* モバイルメニュー（スマホ時のみ） */
 .mobile-nav {
@@ -234,7 +236,7 @@ header {
     }
 
     body.menu-open .menu-trigger span:nth-child(1) {
-        transform: translateY(14px) rotate(45deg);
+        transform: translateY(13px) rotate(45deg);
     }
 
     body.menu-open .menu-trigger span:nth-child(2) {
@@ -242,7 +244,7 @@ header {
     }
 
     body.menu-open .menu-trigger span:nth-child(3) {
-        transform: translateY(-11px) rotate(-45deg);
+        transform: translateY(-14px) rotate(-45deg);
     }
 }
 
@@ -320,15 +322,17 @@ header {
 @media (max-width: 768px) {
     .hero {
         height: 60vh;
+        max-width: 768px;
+        width: 100%;
     }
 }
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
     .hero {
         max-width: 320px;
         width: 100%;
     }
-}
+} */
 
 
 
