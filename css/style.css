@@ -312,11 +312,23 @@ header {
     font-size: clamp(2rem, 5vw, 3.5rem);
     line-height: 1.4;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-copy br {
+    display: none;
 }
 
 .hero-subline {
-    font-size: 1.1rem;
+    font-size: 2rem;
     letter-spacing: 0.05em;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-subline br {
+    display: none;
 }
 
 @media (max-width: 768px) {
@@ -324,6 +336,18 @@ header {
         height: 60vh;
         max-width: 768px;
         width: 100%;
+    }
+
+    .hero-copy br {
+        display: block;
+    }
+
+    .hero-subline {
+        font-size: 1.1rem;
+    }
+
+    .hero-subline br {
+        display: block;
     }
 }
 
