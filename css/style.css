@@ -62,7 +62,8 @@ ul {
 header {
     background: #fff;
     border-bottom: 2px solid #eee;
-    position: fixed;
+    position: sticky;
+    top: 0;
     z-index: 10000;
     width: 100%;
 }
@@ -333,8 +334,8 @@ header {
 
 @media (max-width: 768px) {
     .hero {
-        height: 60vh;
-        max-width: 768px;
+        min-height: 100dvh;
+        min-width: 768px;
         width: 100%;
     }
 
@@ -350,13 +351,6 @@ header {
         display: block;
     }
 }
-
-/* @media (max-width: 320px) {
-    .hero {
-        max-width: 320px;
-        width: 100%;
-    }
-} */
 
 
 
