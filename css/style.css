@@ -340,13 +340,15 @@ header {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        padding-bottom: 0;
+        padding: 0;
         border-radius: 0 0 20px 20px;
     }
 
     .hero-img-dummy {
         display: none;
     }
+
+    .hero-content {}
 
     .hero-copy br {
         display: block;
@@ -361,7 +363,24 @@ header {
     }
 }
 
+@media (max-width: 425px) {
+    .hero-content {
+        padding-top: 50px;
+    }
 
+    .hero-copy {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .hero-subline {
+        font-size: 0.8rem;
+    }
+
+    .hero-subline br {
+        display: block;
+    }
+}
 
 
 
