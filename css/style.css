@@ -334,9 +334,21 @@ header {
 
 @media (max-width: 768px) {
     .hero {
-        min-height: 100dvh;
-        min-width: 768px;
-        width: 100%;
+        aspect-ratio: 1 / 1;
+        background-image: url(../img/hero/top_image1.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-bottom: 0;
+        border-radius: 0;
+    }
+
+    .hero-img-dummy {
+        display: none;
+    }
+
+    .hero-img-dummy img {
+        aspect-ratio: 1 / 1;
     }
 
     .hero-copy br {
