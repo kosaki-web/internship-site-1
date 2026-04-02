@@ -775,8 +775,7 @@ footer {
 
 /* ホバー時の挙動 */
 .pagetop:hover {
-    background-color: var(--accent-gold);
-    /* 奈良らしい金茶色へ */
+    background-color: #a5a0a0;
     transform: translateY(-5px);
 }
 
