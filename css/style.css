@@ -458,6 +458,18 @@ section {
     }
 }
 
+@media (max-width: 350px) {
+    .concept h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .concept h2 {
+        font-size: 1.7rem;
+    }
+}
+
 
 
 
