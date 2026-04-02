@@ -554,7 +554,7 @@ section {
 
 @media (max-width: 320px) {
     .product-card {
-        padding: 5px 0;
+        padding: 2%;
     }
 }
 
