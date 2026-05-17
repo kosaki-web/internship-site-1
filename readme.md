@@ -11,7 +11,7 @@
 
 ## リポジトリ
 
-[リポジトリを見る](https://fk-code8128.github.io/internship-site-1/)
+[リポジトリを見る](https://github.com/FK-code8128/internship-site-1.git)
 
 ## ターゲット層
 
