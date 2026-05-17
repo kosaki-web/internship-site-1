@@ -7,11 +7,11 @@
 
 ## デモURL
 
-[デモサイトを見る](https://kosaki-web.github.io/internship-site-1/)
+[デモサイトを見る](https://fk-code8128.github.io/internship-site-1/)
 
 ## リポジトリ
 
-[リポジトリを見る](https://github.com/kosaki-web/internship-site-1.git)
+[リポジトリを見る](https://fk-code8128.github.io/internship-site-1/)
 
 ## ターゲット層
 
@@ -78,4 +78,4 @@
 「指示された項目を網羅する」という要件を満たした上で、AI生成物に人間の手で「一貫性」と「店舗の想い」を吹き込むプロセスを重視しました。
 
 ---
-©2026 F.K. CODING & DESIGN (Project by Fuminobu Kosaki / 幸﨑 史展)
+©2026 F.K. CODING & DESIGN (Project by FK-code8128)
